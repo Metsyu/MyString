@@ -11,7 +11,7 @@ class Mystring
 {
 	public:
 		typedef unsigned int size_type;
-		static const unsigned int npos = 0xFFFFFFFF;
+		static const size_type npos = 0xFFFFFFFF;
 		
 		//Default constructor
 		Mystring();
